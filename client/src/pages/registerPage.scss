@@ -1,0 +1,50 @@
+.register {
+    margin-top: 40px;
+    width: 400px;
+    margin: 200px auto 0;
+
+    &__title {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+
+    &__name {
+        display: flex;
+        flex-direction: column;
+        color: gray;
+        margin-bottom: 10px;
+    }
+
+    &__input {
+        margin-top: 10px;
+        background-color: rgb(160, 151, 151);
+        width: 100%;
+        border-radius: 5px;
+        color: black;
+        padding: 5px 5px;
+        border: 2px solid rgb(223, 223, 223);
+    }
+
+    &__input::placeholder {
+        color: rgb(66, 66, 66);
+    }
+
+    &__btn {
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__submit {
+        background-color: #525151;
+        color: white;
+        border-radius: 4px;
+        padding: 4px 15px;
+    }
+
+    &__register {
+        color: white;
+    }
+}

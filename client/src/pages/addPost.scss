@@ -1,0 +1,82 @@
+.post {
+    margin: 0 auto;
+    width: 500px;
+
+    &__label {
+        color: white;
+        font-size: 16px;
+    }
+
+    &__image {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    &__title {
+        display: block;
+        margin-top: 10px;
+        color: white;
+        font-size: 16px;
+    }
+
+    &__input {
+        &--file {
+            margin-left: 10px;
+        }
+
+        &--text input {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: rgb(160, 151, 151);
+            width: 100%;
+            border-radius: 5px;
+            color: black;
+            padding: 5px 5px;
+            border: 2px solid rgb(223, 223, 223);
+        }
+
+        &--text textarea {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            resize: none;
+            height: 200px;
+            background-color: rgb(160, 151, 151);
+            width: 100%;
+            border-radius: 5px;
+            color: black;
+            padding: 5px 5px;
+            border: 2px solid rgb(223, 223, 223);
+        }
+
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__btn {
+        background-color: rgb(95, 91, 91);
+        width: 100%;
+        color: white;
+        padding: 5px 5px;
+        width: 100px;
+
+        &--add {
+            margin-right: 40px;
+        }
+
+        &--cancel {
+            background-color: rgb(206, 78, 78);
+        }
+    }
+
+    &__image {
+        max-width: 500px;
+    }
+
+    &__image img {
+        width: 100%;
+        object-fit: cover;
+    }
+}

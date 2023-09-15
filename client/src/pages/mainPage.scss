@@ -1,0 +1,40 @@
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+
+  &__text {
+    &--null {
+      text-align: center;
+      color: darkgrey;
+      font-size: 20px;
+    }
+  }
+
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+
+
+    &--one {
+      display: flex;
+      flex-direction: column;
+      flex: 0 0 66%;
+    }
+
+    &--two {
+      display: flex;
+      flex-direction: column;
+      flex: 0 0 30%;
+    }
+  }
+}
+
+
+.popular {
+  &__text {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: white;
+  }
+}

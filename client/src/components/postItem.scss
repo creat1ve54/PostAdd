@@ -1,0 +1,59 @@
+button {
+    background-color: inherit;
+    color: white;
+}
+
+.postItem {
+    margin-bottom: 30px;
+    max-width: 600px;
+
+    &__title {
+        color: white;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    &__text {
+        color: white;
+        opacity: 0.5;
+        margin-bottom: 10px;
+        overflow-wrap: anywhere;
+        height: 60px;
+        overflow: hidden;
+
+        &--null {
+            text-align: center;
+            color: darkgrey;
+            font-size: 20px;
+        }
+    }
+
+    &__btn {
+        &--like {
+            margin-right: 10px;
+        }
+    }
+
+    &__image {
+        max-width: 500px;
+
+        &--visible {
+            img {
+                width: 100%;
+                height: 400px;
+                object-fit: cover;
+            }
+        }
+
+        &--invisible {}
+    }
+}
+
+.info {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    color: white;
+    opacity: 0.5;
+}
